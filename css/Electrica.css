@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    
+}
+
+.nav a{
+    padding-left: 60px;    
+     text-decoration: none; 
+     color: white; 
+     /* display: inline-block; */
+     
+
+}
+.nav a:hover{
+    color: black;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+    background-color: orange;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    /* text-decoration: none; */
+    /* list-style-type: none; */
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.Hero{
+    background-image: url(../images/banner-bg.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    /* margin: -10px; */
+    
+}
+
+
+.services_child{
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.services_child i{
+    color: white;
+}
+.services_child:hover{
+    background-color: black;
+/    /* transform: scale(1.1); */
+    /* transform: rotate3d(0, 1, 0, 60deg); */
+    /* transform: rotateX(45deg); */
+    /* transform: scaleY(50%); */
+
+}
+.services{
+    text-align: center;
+    /* transform: translate(50px,100px); */    
+}
+
+
+.services p{
+    color: white;
+}
+.Service_Main_Child{
+    width: 23%;
+    text-align: center;
+
+}
+
+
+.fa-solid{
+    font-size: 70px;
+}
+
+.services_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.image img{
+    width: 100%;
+}
+
+.image{
+    width: 30%;
+}
+
+.about{
+    text-align: center;
+}
+
+.about_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_child{
+    width: 30%;
+}
+
+
+.customer h2, h5{
+    text-align: center;
+}
+.coustomer_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer_child{
+    width: 30%;
+}
+
+.customer_child img{
+    width: 100%;
+}
+
+.Shop{
+    background-image: url(../images/shop-bg.png);
+    height: 50vh;
+    color:white;
+    text-align: center;
+    
+}
+
+.Shop_inner{
+    padding-top: 100px;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+
+form input, textarea{
+    width: 200%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;     
+
+    
+}
+
+.demo{
+    background-color: black;
+    color: white;
+}
+.copy{
+    text-align: center;
+
+}  
+.btn{
+    background-color: orange;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none;
+ color: white;
+
+}
+.btn a{
+    text-decoration: none;
+    list-style-type: none;
+    /* color: white; */
+
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.btn2{
+ color: white;
+ background-color: orange;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.btn3{
+    color: white;
+ background-color: orange;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none; 
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+}
+.btn4{
+    
+    color: black;
+ background-color: whitesmoke;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none; 
+}
+.btnn{
+    
+    color: white;
+ background-color: orange;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none; 
+}
+.bt1{
+    
+    
+    color: white;
+ background-color: black;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none; 
+}
+.bt1:hover{
+    background-color: orange;
+}
+.bt2{
+    
+    color: white;
+ background-color: orange;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none; 
+}
+
+.bt3{
+    
+    color: white;
+ background-color: black;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none; 
+}
+ .bt3:hover{
+    background-color: orange;
+    color: black;
+ }
+
+.btn4{
+    
+    color:white;
+ background-color: black;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none; 
+}
+.btn4:hover{
+    background-color: orange;
+}
+.bulb{
+   
+    color: white;
+ background-color: orange;
+    width: 130px;
+    height: 130;
+ padding: 15px;
+ border: none;  
+}
+.bulb:hover{
+    background-color: black;
+}
+.elec{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.ourservices{
+    font-size: 40px;
+    font-weight: bold;
+    /* border-bottom-width: 5% solid orange; */    
+}
+.test{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.imgcust{
+    width: 200px;
+    height: 200px;
+}
+#in{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 12px;
+    width: 100%;
+}
+.fa-brands fa-facebook,i:hover{
+    background-color: orange;
+}
+.fa-brands fa-twitter,i:hover{
+    background-color: orange;
+}
+.fa-brands fa-linkedin,i:hover{
+    background-color: orange;
+}
